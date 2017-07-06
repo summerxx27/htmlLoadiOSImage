@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC69AB91F0DE22A00FE6F1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC69AB81F0DE22A00FE6F1B /* main.m */; };
+		BCC69ABC1F0DE22A00FE6F1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC69ABB1F0DE22A00FE6F1B /* AppDelegate.m */; };
+		BCC69ABF1F0DE22A00FE6F1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC69ABE1F0DE22A00FE6F1B /* ViewController.m */; };
+		BCC69AC21F0DE22A00FE6F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC69AC01F0DE22A00FE6F1B /* Main.storyboard */; };
+		BCC69AC41F0DE22A00FE6F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC69AC31F0DE22A00FE6F1B /* Assets.xcassets */; };
+		BCC69AC71F0DE22A00FE6F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC69AC51F0DE22A00FE6F1B /* LaunchScreen.storyboard */; };
+		BCC69AD01F0DE23F00FE6F1B /* MyCustomProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC69ACF1F0DE23F00FE6F1B /* MyCustomProtocol.m */; };
+		BCC69AD21F0DE5C400FE6F1B /* file.html in Resources */ = {isa = PBXBuildFile; fileRef = BCC69AD11F0DE5C400FE6F1B /* file.html */; };
+		BCC69AD41F0DE6F700FE6F1B /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC69AD31F0DE6F700FE6F1B /* image1.png */; };
+		BCC69AD71F0DEDC100FE6F1B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC69AD61F0DEDC000FE6F1B /* Photos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCC69AB41F0DE22A00FE6F1B /* h5如何访问iOS本地图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "h5如何访问iOS本地图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC69AB81F0DE22A00FE6F1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCC69ABA1F0DE22A00FE6F1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCC69ABB1F0DE22A00FE6F1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCC69ABD1F0DE22A00FE6F1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCC69ABE1F0DE22A00FE6F1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCC69AC11F0DE22A00FE6F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC69AC31F0DE22A00FE6F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC69AC61F0DE22A00FE6F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC69AC81F0DE22A00FE6F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC69ACE1F0DE23F00FE6F1B /* MyCustomProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomProtocol.h; sourceTree = "<group>"; };
+		BCC69ACF1F0DE23F00FE6F1B /* MyCustomProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomProtocol.m; sourceTree = "<group>"; };
+		BCC69AD11F0DE5C400FE6F1B /* file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = file.html; sourceTree = "<group>"; };
+		BCC69AD31F0DE6F700FE6F1B /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		BCC69AD61F0DEDC000FE6F1B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC69AB11F0DE22A00FE6F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC69AD71F0DEDC100FE6F1B /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC69AAB1F0DE22A00FE6F1B = {
+			isa = PBXGroup;
+			children = (
+				BCC69AB61F0DE22A00FE6F1B /* h5如何访问iOS本地图片 */,
+				BCC69AB51F0DE22A00FE6F1B /* Products */,
+				BCC69AD51F0DEDC000FE6F1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC69AB51F0DE22A00FE6F1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC69AB41F0DE22A00FE6F1B /* h5如何访问iOS本地图片.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC69AB61F0DE22A00FE6F1B /* h5如何访问iOS本地图片 */ = {
+			isa = PBXGroup;
+			children = (
+				BCC69AD31F0DE6F700FE6F1B /* image1.png */,
+				BCC69AD11F0DE5C400FE6F1B /* file.html */,
+				BCC69ABA1F0DE22A00FE6F1B /* AppDelegate.h */,
+				BCC69ABB1F0DE22A00FE6F1B /* AppDelegate.m */,
+				BCC69ABD1F0DE22A00FE6F1B /* ViewController.h */,
+				BCC69ABE1F0DE22A00FE6F1B /* ViewController.m */,
+				BCC69AC01F0DE22A00FE6F1B /* Main.storyboard */,
+				BCC69AC31F0DE22A00FE6F1B /* Assets.xcassets */,
+				BCC69AC51F0DE22A00FE6F1B /* LaunchScreen.storyboard */,
+				BCC69AC81F0DE22A00FE6F1B /* Info.plist */,
+				BCC69AB71F0DE22A00FE6F1B /* Supporting Files */,
+				BCC69ACE1F0DE23F00FE6F1B /* MyCustomProtocol.h */,
+				BCC69ACF1F0DE23F00FE6F1B /* MyCustomProtocol.m */,
+			);
+			path = "h5如何访问iOS本地图片";
+			sourceTree = "<group>";
+		};
+		BCC69AB71F0DE22A00FE6F1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC69AB81F0DE22A00FE6F1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC69AD51F0DEDC000FE6F1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCC69AD61F0DEDC000FE6F1B /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC69AB31F0DE22A00FE6F1B /* h5如何访问iOS本地图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC69ACB1F0DE22A00FE6F1B /* Build configuration list for PBXNativeTarget "h5如何访问iOS本地图片" */;
+			buildPhases = (
+				BCC69AB01F0DE22A00FE6F1B /* Sources */,
+				BCC69AB11F0DE22A00FE6F1B /* Frameworks */,
+				BCC69AB21F0DE22A00FE6F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "h5如何访问iOS本地图片";
+			productName = "h5如何访问iOS本地图片";
+			productReference = BCC69AB41F0DE22A00FE6F1B /* h5如何访问iOS本地图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC69AAC1F0DE22A00FE6F1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = summerxx.com;
+				TargetAttributes = {
+					BCC69AB31F0DE22A00FE6F1B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BCC69AAF1F0DE22A00FE6F1B /* Build configuration list for PBXProject "h5如何访问iOS本地图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC69AAB1F0DE22A00FE6F1B;
+			productRefGroup = BCC69AB51F0DE22A00FE6F1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC69AB31F0DE22A00FE6F1B /* h5如何访问iOS本地图片 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC69AB21F0DE22A00FE6F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC69AD21F0DE5C400FE6F1B /* file.html in Resources */,
+				BCC69AC71F0DE22A00FE6F1B /* LaunchScreen.storyboard in Resources */,
+				BCC69AD41F0DE6F700FE6F1B /* image1.png in Resources */,
+				BCC69AC41F0DE22A00FE6F1B /* Assets.xcassets in Resources */,
+				BCC69AC21F0DE22A00FE6F1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC69AB01F0DE22A00FE6F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC69AD01F0DE23F00FE6F1B /* MyCustomProtocol.m in Sources */,
+				BCC69ABF1F0DE22A00FE6F1B /* ViewController.m in Sources */,
+				BCC69ABC1F0DE22A00FE6F1B /* AppDelegate.m in Sources */,
+				BCC69AB91F0DE22A00FE6F1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCC69AC01F0DE22A00FE6F1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC69AC11F0DE22A00FE6F1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC69AC51F0DE22A00FE6F1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC69AC61F0DE22A00FE6F1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC69AC91F0DE22A00FE6F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC69ACA1F0DE22A00FE6F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC69ACC1F0DE22A00FE6F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "h5如何访问iOS本地图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.h5----iOS----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCC69ACD1F0DE22A00FE6F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "h5如何访问iOS本地图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-MyCompanyName-.h5----iOS----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC69AAF1F0DE22A00FE6F1B /* Build configuration list for PBXProject "h5如何访问iOS本地图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC69AC91F0DE22A00FE6F1B /* Debug */,
+				BCC69ACA1F0DE22A00FE6F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC69ACB1F0DE22A00FE6F1B /* Build configuration list for PBXNativeTarget "h5如何访问iOS本地图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC69ACC1F0DE22A00FE6F1B /* Debug */,
+				BCC69ACD1F0DE22A00FE6F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC69AAC1F0DE22A00FE6F1B /* Project object */;
+}
